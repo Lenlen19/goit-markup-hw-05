@@ -249,8 +249,12 @@ letter-spacing: 0.4px;
     flex-wrap: wrap;
 }
 .projects li{
-    width: 33.3;
+    width: 30%;
 }
 .projects li img{
     width: 100%;
+}
+.project-cap{
+    text-align:start;
+    gap: 8px;
 }
