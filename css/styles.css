@@ -110,11 +110,11 @@ ul.list {
 }
 
 div ul.list li a{
-    color: var(--navy)
+    color: var(--navy);
     list-style: none;
     text-decoration: none;
-    padding-left: 0px
-    justify-content: space-around;
+    padding-left: 0px;
+    justify-content:space-around;
 }
 footer .bg-dark{
     width:1158px;
@@ -226,7 +226,7 @@ letter-spacing: 0.4px;
 .b-icon{
     border: 1px solid #8e8f99;
     padding:16px 32px;
-};
+}
 .b-icon svg{
     fill:#8e8f99 ;
 }
@@ -260,4 +260,19 @@ letter-spacing: 0.4px;
 .project-cap{
     text-align:start;
     gap: 8px;
+}
+/* button styling */
+.port-btn{
+align-items: center;
+padding: 12px 24px; 
+border-radius: 4px;
+background-color: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button-top{
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+   
 }
