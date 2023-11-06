@@ -46,9 +46,20 @@ footer .logo{
     line-height: 1.5;
     letter-spacing: 0.32;
     color: var(--NAVY);
-    text-decoration: none
-    
-    
+    text-decoration: none;  
+}
+.active{
+    color:var(--OCEAN);
+}
+.active::after{
+    content:"";
+    display:block;
+    height: 4px;
+    width:100%;
+    background-color: var(--OCEAN);
+    position:relative;
+    top:15px;
+
 }
 .nav-link:hover, .nav-link:focus{
     color: var(--IRIS);
@@ -261,6 +272,29 @@ letter-spacing: 0.4px;
     text-align:start;
     gap: 8px;
 }
+.picture-pic{
+    position: relative;
+}
+.picture:hover .picture-pic-caption{
+    opacity:1;
+    transform: translateY(100%);
+}
+.picture-pic-caption{
+    position: absolute;
+    background-color: rgba(77,99,229,1);
+    color:white;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    opacity:0;
+    transform: translateY(100%);
+    transition: transform 0.25s;
+
+}
+.picture-pic-caption p{
+    padding:40px;
+}
 /* button styling */
 .port-btn{
 align-items: center;
@@ -276,3 +310,4 @@ background-color: var(--OCEAN, #404BBF);
     gap: 24px;
    
 }
+
