@@ -94,6 +94,19 @@ text-align: center;
 border-radius: 4px;
 padding: 16px 32px;
 }
+.modal {
+    background-color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    width:100%;
+}
+.modal-content{
+    background-color:white;
+    width:408;
+    height:584;
+}
 h3{
     font-size: 20px;
     line-height: 120%;
