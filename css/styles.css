@@ -94,6 +94,19 @@ text-align: center;
 border-radius: 4px;
 padding: 16px 32px;
 }
+.modal {
+    background-color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    width:100%;
+}
+.modal-content{
+    background-color:white;
+    width:408;
+    height:584;
+}
 h3{
     font-size: 20px;
     line-height: 120%;
@@ -272,10 +285,11 @@ letter-spacing: 0.4px;
 }
 .picture-pic{
     position: relative;
+    overflow: hidden;
 }
 .picture:hover .picture-pic-caption{
     opacity:1;
-    transform: translateY(100%);
+    transform: translateY(0%);
 }
 .picture-pic-caption{
     position: absolute;
@@ -287,11 +301,13 @@ letter-spacing: 0.4px;
     left:0;
     opacity:0;
     transform: translateY(100%);
-    transition: transform 0.25s;
-
+    transition: transform 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+.picture{
+    overflow: hidden;
 }
 .picture-pic-caption p{
-    padding:40px;
+    padding:40px 32px;
 }
 /* button styling */
 .port-btn{
