@@ -136,14 +136,12 @@ div ul.list li a{
     padding-left: 0px;
     justify-content:space-around;
 }
-footer .bg-dark{
-    width:1158px;
-}
+
 .bg-dark{
     text-align: left;
     background-color: var(--NAVY);
-    color: var(--WHITE)
-    
+    color: var(--WHITE);
+    width: 1370px;
     
 }
 .container{
