@@ -130,11 +130,11 @@ opacity: 0;
     cursor: pointer;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 
 }
 .modal-close-btn:hover{
-    fill:currentColor;border:1px solid currentColor;
+    fill:currentColor;border:1px solid currentColor; 
 
 }
 
